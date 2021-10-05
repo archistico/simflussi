@@ -1,0 +1,13 @@
+{
+    "name": "archistico/simflussi",
+    "authors": [
+        {
+            "name": "archistico",
+            "email": "info@archistico.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "app"}
+    },
+    "require": {}
+}
