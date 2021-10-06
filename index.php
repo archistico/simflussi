@@ -16,5 +16,9 @@ echo "Numero giorni: ". $c->getNumeroGiorni()."\n";
 
 $c->makeCalendar();
 
-var_dump($c->getGiornoByIntervallo(0, 20, IntervalloFormato::GiornoDellaSettimana, GiornoSettimana::Lunedì));
+// var_dump($c->getGiornoByIntervallo(0, 20, IntervalloFormato::Singolo));
+// var_dump($c->getGiornoByIntervallo(0, 20, IntervalloFormato::GiornoDellaSettimana, GiornoSettimana::Lunedì));
 // var_dump($c->getGiornoByIntervallo(10, 20, IntervalloFormato::TuttiIGiorni));
+// var_dump($c->getGiornoByIntervallo(0, 60, IntervalloFormato::GiornoDelMese, 5));
+// var_dump($c->getGiornoByIntervallo(0, 60, IntervalloFormato::Ogni1Mese, 5));
+var_dump($c->getGiornoByIntervallo(0, 365, IntervalloFormato::Ogni6Mesi, 36));

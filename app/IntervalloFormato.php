@@ -4,31 +4,22 @@ namespace App;
 
 abstract class IntervalloFormato extends \App\Utilita\BasicEnum
 {
-    /*
-    Risultati compresi tra inizio e fine
-    - un solo giorno
-    - tutti i giorni 
-    - specifico giorno della settimana
-    - specifico giorno del mese
-    - ogni 1 mese partendo da inizio
-    - ogni 2 mesi
-    - ogni 3 mesi
-    - ogni 4 mesi
-    - ogni 6 mesi
-    - ogni 1 anno
-    - ogni 2 anni
-    - ogni 3 anni
-    - ogni 5 anni
-    - ogni 10 anni
-    - ogni 20 anni
-    - ogni 30 anni
-    */
-    
     const Singolo = "Singolo";
     const TuttiIGiorni = "Tutti i giorni";
     const GiornoDellaSettimana = "Specifico giorno della settimana";
-    const GiornoDelMese = "Specifico giorno del mese";
-
+    const Ogni1Mese = "Ogni mese";
+    const Ogni2Mesi = "Ogni 2 mesi";
+    const Ogni3Mesi = "Ogni 3 mesi";
+    const Ogni4Mesi = "Ogni 4 mesi";
+    const Ogni6Mesi = "Ogni 6 mesi";
+    const Ogni1Anno = "Ogni anno";
+    const Ogni2Anni = "Ogni 2 anni";
+    const Ogni3Anni = "Ogni 3 anni";
+    const Ogni5Anni = "Ogni 5 anni";
+    const Ogni10Anni = "Ogni 10 anni";
+    const Ogni20Anni = "Ogni 20 anni";
+    const Ogni30Anni = "Ogni 30 anni";
+    const Ogni50Anni = "Ogni 50 anni";  
 }
 
 abstract class BasicEnum {
